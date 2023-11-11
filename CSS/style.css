@@ -1,0 +1,148 @@
+@import url('https://fonts.cdnfonts.com/css/arial-2');
+@import url('https://db.onlinewebfonts.com/c/758d40d7ca52e3a9bff2655c7ab5703c?family=Cambria+W02+Regular');
+@import url('https://db.onlinewebfonts.com/c/2442df04682466647c9b737e374dd1ef?family=Microsoft+Sans+Serif');
+@import url('https://db.onlinewebfonts.com/c/cd0381aa3322dff4babd137f03829c8c?family=Tahoma');
+@import url('https://db.onlinewebfonts.com/c/fe9c236a1c142788cb16ec5238c7833e?family=Minion+Pro');
+
+*{padding: 0;margin: 0;box-sizing: content-box;outline: none;}
+.wrapper{width: 100%;max-width: 1920px; margin: 0 auto;padding: 20px 15px;}
+.section-1-header{display: flex;width: 100%;justify-content: space-between;align-content: center;align-items: center;border-bottom: 1px solid #e5e5e5;padding-bottom: 14px;}
+.section-1-header .action-panel {display: flex;gap: 20px;align-content: center;align-items: center;}
+.section-1-header .section-1-h3{cursor: pointer; font-family: 'Arial', sans-serif; color: #6c757d; font-size: 16px; line-height: 20px;font-weight: 600;}
+.section-1-header .section-1-h1{ color: #343a40; font-size: 56px; line-height: 60px;}
+.section-1-header .fa.fa-search{color: #6c757d;    font-size: 20px;cursor: pointer;}
+.section-1-header .section-1-btn-sign span{font-family: 'Arial', sans-serif; color: #6c757d; font-size: 16px; line-height: 20px; display: inline-block;padding: 7px 14px;border: 1px solid #6c757d; border-radius: 5px;cursor: pointer;}
+.section-1-header a {text-decoration: none;}
+
+.section-2{ padding: 18px 0;}
+.section-2 nav{ display: flex; justify-content: space-between; padding: 0px 4px; font-family: 'Arial';}
+.section-2 nav a{color: #6c757d;font-size: 16px;    text-decoration: none;}
+.section-2 .hamburger{ display: none;cursor: pointer;}
+.bar1, .bar2, .bar3 {width: 35px;height: 5px;background-color: #6c757d;margin: 6px 0;transition: 0.4s; }
+.section-2 .mob-hamburger .bar1 {transform: translate(0, 11px) rotate(-45deg);}
+.section-2 .mob-hamburger .bar2 {opacity: 0;}
+.section-2 .mob-hamburger .bar3 {transform: translate(0, -11px) rotate(45deg);}
+
+.section-3.hero-image {background-color: #343a40;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg"); */
+}
+
+.section-3 .hero-text{    padding: 40px 40px 40px 42px;}
+.section-3 .hero-text h1{    font-family: "Cambria W02 Regular";font-style: italic;font-weight: bold;font-size: 54px; line-height: 60px;max-width: 440px; width: 100%;color: #fff;}
+.section-3 .hero-text p{ font-family: "Microsoft Sans Serif"; color: #fff; font-size: 24px; padding: 20px 0px; width: 100%; max-width: 534px; line-height: 30px;}
+.section-3 .hero-text span {color: #fff;font-size: 24px; line-height: 30px;cursor: pointer;font-family: "Tahoma";font-weight: bold;}
+
+.green-color{color: #28a745;}
+.section-4 {padding: 30px 0px 30px 0px;display: flex;gap: 40px;    flex-wrap: wrap;}
+.section-4 .card {display: flex;border-radius: 4px;box-shadow: 0px 1px 6px -3px rgba(0,0,0,0.75);-webkit-box-shadow: 0px 1px 6px -3px rgba(0,0,0,0.75);-moz-box-shadow: 0px 1px 6px -3px rgba(0,0,0,0.75);    width: auto;}
+.section-4 .border{padding: 20px 20px 20px 20px;}
+.section-4 .card .category{ font-family: 'Arial';color: #007bff;font-weight: 600; font-size: 14px;line-height: 20px;}
+.section-4 .card .title{    font-size: 28px; color: #202428;line-height: 32px;padding: 0px 0px;}
+.section-4 .card .date{ font-family: 'Arial';color:#6c757d;font-weight:500; font-size: 14px;line-height: 20px;}
+.section-4 .card .description{font-family: 'Arial';color:#202428;font-weight:500; font-size: 14px;line-height: 20px;width: 100%; max-width: 284px;    padding: 10px 0px 20px 0px;}
+.section-4 .card .read-more{ font-family: 'Arial';color: #007bfe;font-weight: 500; font-size: 14px;line-height: 20px;cursor: pointer;}
+.section-4 .card .green-color{color: #28a745;}
+.section-4 .card img{width: 100%;max-width: 156px;}
+
+.section-5{display: flex;}
+.section-5 .main-cont{ flex: 2 1;     padding: 0px 14px 0px 0px;}
+.section-5 .sec-5-title{ font-size: 28px;font-style: italic;font-weight: bold;}
+.section-5 .blog-card h1{font-size: 40px; line-height: 44px; color: #202428;    padding: 30px 0px 6px 0px;text-transform: capitalize;}
+.section-5 .blog-card .blog-date{font-family: 'Arial';color:#6c757d;font-weight:500; font-size: 14px;line-height: 20px;display: inline-block;padding-bottom: 20px;}
+.blue-color{color: #007bfe;}
+.section-5 p{font-family: 'Arial';color:#383c3f;font-weight:500; font-size: 18px;line-height: 22px; padding: 10px 0px;text-transform: capitalize;}
+.section-5 h2{font-family: "Minion Pro"; font-size: 40px; line-height: 44px; color: #202428;    padding: 20px 0px 10px 0px;}
+.section-5 .blog-card h3{font-size: 36px; line-height: 40px; color: #202428;    padding: 20px 0px 6px 0px;}
+.section-5 ul,
+.section-5 ol{padding-inline-start: 30px;}
+.section-5 ul li,
+.section-5 ol li{font-family: 'Arial';color:#383c3f;font-weight:500; font-size: 18px;line-height: 22px; padding: 4px 0px;}
+.section-5 .navigation-btn{padding: 20px 0px;}
+.section-5 .navigation-btn .older,
+.section-5 .navigation-btn .newer{ font-family: 'Arial';display: inline-block;padding: 10px 14px;border-radius: 20px;cursor: pointer;}
+.section-5 .navigation-btn .older{border: 1px solid #007bfe;}
+.section-5 .navigation-btn .newer{border: 1px solid #6c757d;}
+.section-5 .side-cont{    flex: .6 0;    padding: 0px 14px;}
+.section-5 .side-cont h3{font-family: "Cambria W02 Regular"; font-weight: bold;font-style: italic;font-size: 30px; line-height: 34px;}
+.section-5 .archives-cont{    padding: 40px 0px;display: flex; flex-direction: column; gap: 10px;}
+.section-5 .elsewhere-cont{   display: flex; flex-direction: column; gap: 10px; padding-bottom: 40px;}
+
+.footer{    text-align: center;width: 100%;max-width: 100%;background-color: #fafafa;padding: 20px 10px;}
+.footer h4{font-family: 'Arial';color:#383c3f;font-weight:500; font-size: 18px;line-height: 22px;padding-bottom: 20px;}
+.footer .back-to-top{font-family: 'Arial';font-weight:500; font-size: 18px;line-height: 22px;cursor: pointer;}
+
+/* form */
+.form-con {width: 100%;margin: auto;}
+.form-con form#myForm {display: flex;flex-direction: column;padding: 50px 20px;background-color: #343a40;border-radius: 5px;}
+.form-con label{font-family: 'Arial';font-weight:400; font-size: 18px;line-height: 22px;margin-bottom: 10px;color: #fff;}
+.form-con input,
+.form-con textarea,
+.form-con select{width: 100%;height: 26px;border: 1px solid #6c757d;border-radius: 5px;margin-bottom: 10px;}
+.form-con .submit_form{    margin-top: 30px;font-family: 'Arial', sans-serif; color: #000000; font-size: 16px; line-height: 20px; display: inline-block;padding: 7px 14px;border: 1px solid #6c757d; border-radius: 5px;cursor: pointer;}  
+.form-con textarea{height:unset}
+.open-button {background-color: #343a40;color: white;padding: 16px 20px;border: none;cursor: pointer;position: fixed;bottom: 23px;right: 28px;width: 100%;max-width: 100px;border-radius: 5px;}
+.modal { display: none;  position: fixed; z-index: 1;  padding-top: 100px;left: 0;top: 0;width: 100%;height: 100%;overflow: auto; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.4);}
+.modal-content {margin: auto;padding: 20px;width: 100%;max-width: 600px;}
+      
+@media(max-width: 1920px) {
+.wrapper {max-width: 1640px;}
+}
+
+@media(max-width: 1640px) {
+.wrapper {max-width: 1366px;}
+}
+
+@media(max-width: 1440px) {
+.wrapper {max-width: 1230px;}
+}
+
+@media(max-width: 1366px) {
+.wrapper {max-width: 1168px;}
+}
+
+@media (max-width: 1024px) {
+.wrapper {width: 100%;}
+.section-2 {position: relative;}
+.section-2 .hamburger{ display: inline-block; position: absolute;right: 0px;top: 3px;}
+.section-2 nav{display: none;}
+.section-2 nav.mob-hamburger-active {display: flex;     padding: 10px 0px;    border-radius: 4px;   flex-direction: column;background-color: #343a40;justify-content: space-evenly;position: absolute;width: 100%;top: 60px;}
+.section-2 nav.mob-hamburger-active a{ padding: 14px 4px;text-align: center;color: #fff;}
+.section-3.hero-image{margin-top: 10px;}
+.section-5{display: flex;flex-direction: column;}
+.section-5 .side-cont{    flex: .6 0;    padding: 0px 0px;}
+}
+
+@media (max-width: 769px) {
+.wrapper {width: 100%;}
+.modal-content {max-width: 560px;}
+}
+
+@media (max-width: 600px) {
+.wrapper {width: 100%;}
+.section-1-header .section-1-h1{font-size: 40px;line-height: 44px;}
+.section-3 .hero-text h1{font-size: 40px; line-height: 44px;max-width: 440px;}
+.section-3 .hero-text{padding: 20px 24px}
+.section-3 .hero-text p{ font-size: 20px; padding: 20px 0px; max-width: 534px; line-height: 24px;}
+.section-3 .hero-text span {font-size: 18px; line-height: 22px;cursor: pointer;}
+.modal-content {max-width: 400px;}
+.section-4 .card .title{    font-size: 22px;line-height: 26px;}
+.form-con label{font-size: 16px;line-height: 20px;}
+.section-5 .sec-5-title{  font-size: 20px;line-height: 24px;}
+.section-5 .blog-card h1,
+.section-5 h2,
+.section-5 .blog-card h3{    font-size: 30px;line-height: 34px;}
+.section-3 .hero-text p,
+.section-5 p,
+.section-5 ul li, .section-5 ol li{ font-size: 16px;line-height: 20px;}
+.open-button{padding: 8px 7px;max-width: 66px;line-height: 18px;}
+}
+
+@media (max-width: 400px) {
+.modal-content {max-width: 320px;}
+}
+
+
+/* font-family: 'Arial', sans-serif; */
+/* font-family: "Cambria W02 Regular"; */
+/* font-family: "Microsoft Sans Serif"; */
+/* font-family: "Tahoma"; */
